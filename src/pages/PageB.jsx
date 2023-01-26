@@ -1,6 +1,7 @@
 const PageB = () => {
     return (
       <p>PageB</p>
+      
     )
   }
   

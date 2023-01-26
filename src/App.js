@@ -1,9 +1,9 @@
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import Home from "./pages/Home";
-import PageA from "./pages/PageA";
+import Portfolio from "./pages/Portfolio";
 import PageB from "./pages/PageB";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -11,10 +11,9 @@ function App() {
       <Header/>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/pageA" component={PageA} />
+        <Route path="/Portfolio" component={Portfolio} />
         <Route path="/pageB" component={PageB} />
       </Switch>
-      <Footer/>
     </Router>
   );
 }

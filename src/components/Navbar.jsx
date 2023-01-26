@@ -9,8 +9,8 @@ const Navbar = () => {
             <NavLink to='/' className="navItem">
                 Home
             </NavLink>
-            <NavLink to='/pageA' className="navItem">
-                PageA
+            <NavLink to='/Portfolio' className="navItem">
+            Portfolio
             </NavLink>
             <NavLink to='/pageB' className="navItem">
                 pageB
