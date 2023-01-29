@@ -1,0 +1,15 @@
+.Home{
+    padding-top:200px;
+    text-align: center;
+}
+
+
+.profileImage {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+ 

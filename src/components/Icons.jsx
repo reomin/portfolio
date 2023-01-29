@@ -1,28 +1,22 @@
-import { NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import "../styles/Icons.css";
 import {AiFillLinkedin,AiFillMail,AiFillGithub} from "react-icons/ai";
-
-
-
-
+import { NavLink } from "react-router-dom";
 
 const Icons = () => {
    return (
        <>
-      <div className="icons">
-                ©Portfolio
-                <a href="https://github.com/reomin" target="_blank" rel="noopener noreferrer" >
+        <div className="icons">
+               <h3> Hi, I'm Reo takeuchi </h3> 
+                <a href="https://github.com/reomin" target="_blank" rel="noopener noreferrer" className="images" >
                 <AiFillGithub size="3vw" color="gray" opacity="0.9"/>
                 </a>
-                <a href="https://www.linkedin.com/in/reo-takeuchi-b2a93a1a8/" target="_blank" rel="noopener noreferrer" >
+                <a href="https://www.linkedin.com/in/reo-takeuchi-b2a93a1a8/" target="_blank" rel="noopener noreferrer" className="images">
                 <AiFillLinkedin size="3vw" color="gray" opacity="0.9"/>
                 </a>
-                <a href="https://www.linkedin.com/in/reo-takeuchi-b2a93a1a8/" target="_blank" rel="noopener noreferrer" >
+                <a href="https://www.linkedin.com/in/reo-takeuchi-b2a93a1a8/" target="_blank" rel="noopener noreferrer" className="images">
                 <AiFillMail size="3vw" color="gray" opacity="0.9"/>
                 </a>
-           </div>
+        </div>
           
        </>
    );

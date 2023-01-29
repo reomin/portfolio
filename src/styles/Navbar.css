@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     margin: 0 0 0 auto;
-    padding-right: 70px;
+    padding-right: 50px;
   }
   
   .navItem{
@@ -11,14 +11,14 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0 4rem;
+    padding: 0 2rem;
     height: 100%;
     cursor: pointer;
     
   }
 
   .navItem:hover{
-    border-bottom:2px solid gray;
+    border-bottom:2px solid white;
     text-decoration: none;
 
   }
