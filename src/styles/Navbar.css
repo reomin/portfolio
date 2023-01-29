@@ -20,5 +20,5 @@
   .navItem:hover{
     border-bottom:2px solid white;
     text-decoration: none;
-
+    color:white;
   }

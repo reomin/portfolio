@@ -1,19 +1,25 @@
 .Title{
-    margin-bottom:50px;
-    font-size: 50px;
-    margin-top:200px;
+    padding:0px 30px;
+    margin: 150px 70px 20px 70px; 
     border-left: solid black 10px;
-    /* text-align: center; */
+    font-size: 40px;
+/* text-align: center; */
 }
+
 .sectionTitle{
     display:flex; 
-    margin-left: 280px;
+    margin: 50px 100px 20px 100px; 
     padding-top:30px;
     padding-bottom: 30px;
-    
+    border-bottom:2px solid black;
+    font-size: 30px;
+}
+
+.textTitle{
+    font-weight: bold;
+    font-size:20px;
 }
 
 .text{
-    margin-left:280px;
-    margin-bottom:50px;
+    margin: 0px 120px 50px 120px; 
 }

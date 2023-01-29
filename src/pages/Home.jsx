@@ -14,9 +14,8 @@ const Home = () => {
         <p>竹内れおのポートフォリオサイトです</p>
       </div>
       </div>
-      
        <div className ="aboutSkill">
-        <h3 className="sectionTitle">使用したことある言語</h3>
+       <h3 className="secondTitle">使用したことある言語</h3>
          <div className="icons">
           <div className="icon">
             <a href="https://github.com/reomin" target="_blank" rel="noopener noreferrer" className="images" >

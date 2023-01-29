@@ -2,3 +2,26 @@
     padding: 0  px;
     margin-bottom:50px;
 }
+.Title{
+    padding:0px 30px;
+    margin: 150px 70px 20px 70px; 
+    border-left: solid black 10px;
+    font-size: 40px;
+/* text-align: center; */
+}
+
+.sectionTitle{
+    display:flex; 
+    margin: 50px 100px 20px 100px; 
+    padding-top:30px;
+    padding-bottom: 30px;
+    border-bottom:2px solid black;
+    
+}
+
+.informationTitle{
+    display:flex; 
+    margin: 50px 100px 20px 100px; 
+    padding-top:30px;
+    padding-bottom: 30px;
+}
