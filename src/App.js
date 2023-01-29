@@ -1,6 +1,6 @@
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import Home from "./pages/Home";
-import Portfolio from "./pages/Portfolio";
+import Project from "./pages/Project";
 import Resume from "./pages/Resume";
 import Header from "./components/Header";
 import AboutMe from "./pages/AboutMe";
@@ -14,7 +14,7 @@ function App() {
       <Header/>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/Portfolio" component={Portfolio} />
+        <Route path="/Project" component={Project} />
         <Route path="/Resume" component={Resume} />
         <Route path="/AboutMe" component={AboutMe} />
       </Switch>

@@ -1,0 +1,15 @@
+.Title{
+    margin-bottom:50px;
+    font-size: 50px;
+    margin-top:200px;
+    margin: 0px 220px;
+    padding:0 20px;
+    border-left: solid black 10px;
+    /* text-align: center; */
+}
+
+.ProjectText{
+    text-align: center;
+    padding-top:50px;
+}
+

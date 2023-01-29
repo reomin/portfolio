@@ -1,10 +1,9 @@
 .Title{
-    padding-bottom:20px;
+    margin-bottom:50px;
     font-size: 50px;
-    padding-top:150px;
-    margin-left: 250px;
+    margin-top:200px;
+    border-left: solid black 10px;
     /* text-align: center; */
-
 }
 .sectionTitle{
     display:flex; 

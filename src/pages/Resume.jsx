@@ -33,21 +33,43 @@ const Resume = () => {
              <h2 className="sectionTitle">
              Work experience
              </h2>
-             <p className="text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Minima maxime quam architecto quo inventore harum ex magni,
-                dicta impedit.
-             </p>
+             <div className="text">
+              <p>Apr 2021 - Aug 2021</p>
+              <p className ="textTitle">Google Ads Quality Rater(アルバイトスタッフ) -2021年8月</p>
+              {/* 仕事内容の説明何をしていたか */}
+              <p className ="textContents">nnckdcnkckcdkcdknkcknkcdkdcnkcndkcndkcnkcnkcnkdncdkcndkcndkcndkcndkdkcdnk</p>
+              
+             </div>
+             <div className="text">
+             <p>Jul 2021 - Dec 2021</p>
+              <p className ="textTitle">Evolany co Ltd (学生インターン)</p>
+              {/* 仕事内容の説明何をしていたか */}
+              <p className ="textContents">nnckdcnkckcdkcdknkcknkcdkdcnkcndkcndkcnkcnkcnkdncdkcndkcndkcndkcndkdkcdnk</p>
+             </div>
+
+             <div className="text">
+             <p>Jul 2022 - Aug 2022</p>
+              <p className ="textTitle">Myadcenter co Ltd (学生インターン)</p>
+              {/* 仕事内容の説明何をしていたか */}
+              <p className ="textContents">nnckdcnkckcdkcdknkcknkcdkdcnkcndkcndkcnkcnkcnkdncdkcndkcndkcndkcndkdkcdnk</p>
+             </div>             
+
+             <div className="text">
+             <p>1 week</p>
+              <p className ="textTitle">マイナビハッカソン型インターンシップ</p>
+              {/* 仕事内容の説明何をしていたか */}
+              <p className ="textContents">nnckdcnkckcdkcdknkcknkcdkdcnkcndkcndkcnkcnkcnkdncdkcndkcndkcndkcndkdkcdnk</p>
+             </div>   
+
             </div>
 
-            <div className="education">
+            <div className="Certification">
              <h2 className="sectionTitle">
               Certification
              </h2>
              <p className="text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Minima maxime quam architecto quo inventore harum ex magni,
-                dicta impedit.
+             Jul 2021 <br/>
+                TOEFL IBT 73点 取得  
              </p>
             </div>
    </section>
