@@ -8,10 +8,12 @@ const Home = () => {
     return (
       <section className="Home">
       <div className="HomeTitle">
+      <div class="flex items-center">
         <img src={profileImage} className="profileImage" alt="Avatar"/>
+      </div>
         <div className="HomeContents">
         <h1 className="ProfileName">Reo Takeuchi</h1>
-        <p>竹内れおのポートフォリオサイトです</p>
+        <p className="underline">竹内れおのポートフォリオサイトです</p>
       </div>
       </div>
        <div className ="aboutSkill">

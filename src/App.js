@@ -4,6 +4,8 @@ import Project from "./pages/Project";
 import Resume from "./pages/Resume";
 import Header from "./components/Header";
 import AboutMe from "./pages/AboutMe";
+import Contact from "./pages/Contact";
+
 
 
 
@@ -17,6 +19,7 @@ function App() {
         <Route path="/Project" component={Project} />
         <Route path="/Resume" component={Resume} />
         <Route path="/AboutMe" component={AboutMe} />
+        <Route path="/Contact" component={Contact} />
       </Switch>
     </Router>
 
