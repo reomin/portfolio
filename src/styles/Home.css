@@ -1,37 +1,46 @@
 .Home{
-    padding-top:200px;
+    margin-top: 250px;
     text-align: center;
 }
 
 
 .profileImage {
     object-fit: cover;
-    height: 300px;
-    width: 300px;
+    height: 450px;
+    width: 450px;
     border-radius: 50%;
     margin-bottom: 15px;
+    margin: auto;
+    display: block;
   }
 
 
 .ProfileName{
-    font-size: 50px;;
+    font-size: 70px;
+    margin-top: 50px;
 }
 
 .aboutSkill{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom:70px;
     margin: 0 350px 0 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon{
-    padding: 20px 50px 40px 50px;
+    margin: auto;
+    display: block;
+    max-width: 100%; /* 画像をコンテナの幅に合わせます */
+  max-height: 100%; /* 画像をコンテナの高さに合わせます */
 }
  
 
-.secondTitle{
-    display:flex; 
-    margin: 0px 100px 20px 100px; 
-    padding-top:30px;
+.subName{
+    padding:0 20px 30px 30px;
+    margin: 30px 150px;
     padding-bottom: 30px;
     border-bottom:2px solid black;
 }
+
