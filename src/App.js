@@ -8,8 +8,10 @@ import AboutMe from "./pages/AboutMe";
 
 
 
+
 function App() {
   return (
+    <div>
     <Router>
       <Header/>
       <Switch>
@@ -19,6 +21,7 @@ function App() {
         <Route path="/AboutMe" component={AboutMe} />
       </Switch>
     </Router>
+    </div>
 
   );
 }

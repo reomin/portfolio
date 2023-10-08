@@ -11,3 +11,10 @@
     padding-top:50px;
 }
 
+.Images{
+    height: 300px;
+    width: 400px;
+    float: right;
+    border-radius: 5%;
+}
+

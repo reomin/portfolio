@@ -6,10 +6,6 @@ const AboutMe = () => {
     return (
       <section className="AboutMe">
         <h1 className="Title">About Me</h1>
-        <div className="Information">
-          <h2 className="informationTitle">Reo Takeuchi</h2>
-          <p className="text">日本大学経済学部　経済学科  4年<br/>金融ゼミ<br/>フィッシングサークル部長</p>
-        </div>
 
         <div className="background">
           <h2 className="sectionTitle">カナダ留学</h2>

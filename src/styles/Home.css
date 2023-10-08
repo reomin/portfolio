@@ -1,37 +1,73 @@
 .Home{
-    padding-top:200px;
+    margin-top: 250px;
     text-align: center;
 }
 
 
 .profileImage {
     object-fit: cover;
-    height: 300px;
-    width: 300px;
+    height: 450px;
+    width: 450px;
     border-radius: 50%;
     margin-bottom: 15px;
+    margin: auto;
+    display: block;
   }
 
 
 .ProfileName{
-    font-size: 50px;;
+    font-size: 70px;
+    margin-top: 50px;
 }
 
 .aboutSkill{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom:70px;
     margin: 0 350px 0 350px;
-}
-
-.icon{
-    padding: 20px 50px 40px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
  
 
-.secondTitle{
-    display:flex; 
-    margin: 0px 100px 20px 100px; 
-    padding-top:30px;
+.subName{
+    padding:0 20px 30px 30px;
+    margin: 30px 150px;
     padding-bottom: 30px;
     border-bottom:2px solid black;
 }
+
+
+/* アイコンコンテナ */
+.icon-container {
+    overflow: hidden; /* コンテナ外の部分を非表示にする */
+    white-space: nowrap; /* アイコンを横に並べる */
+    animation: infinity-scroll-left 30s linear infinite; /* アニメーションを適用 */
+  }
+
+.icon-container:hover{
+    animation-play-state: paused;
+}
+  
+  /* アイコン */
+  .icon {
+    display: inline-block;
+    margin-right: 70px; /* アイコン間の間隔（任意） */
+    transition: margin 0.5s; /* アイコンがスライドする際のトランジション */
+  }
+  
+  /* アイコンホバー時のスタイル（任意） */
+  .icon:hover {
+    margin-right: 100px; /* ホバー時にアイコンを少し移動させる */
+  }
+  
+  /* @keyframes アニメーション */
+  @keyframes infinity-scroll-left {
+    from {
+      transform: translateX(50%); /* 開始位置を右端に設定 */
+    }
+    to {
+      transform: translateX(-70%); /* 終了位置を左端に設定 */
+    }
+  }
+  
