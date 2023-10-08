@@ -5,29 +5,6 @@ const Resume = () => {
       
       <section className="Resume">
             <h1 className="Title">Resume</h1>
-            <div className="education">
-             <h2 className="sectionTitle">
-              education
-             </h2>
-             <div className="text">
-              <p>- March 2018</p>
-              <p className ="textTitle"> 日本大学高等学校　卒業</p>
-             </div>
-             <div className="text">
-              <p>Apr 2019 -</p>
-              <p className ="textTitle"> 日本大学 経済学部　経済学科 入学</p>
-             </div>
-             <div className="text">
-              <p>Feb 2022 -</p>
-              <p className ="textTitle"> Cornerstone International Community College <br/>International Business Manegement Course　入学 (カナダ)</p>
-             </div>
-             <div className="text">
-              <p>Feb 2023 -</p>
-              <p className ="textTitle"> Cornerstone International Community College 卒業</p>
-             </div>
-
-
-            </div>
           
             <div className="Work experience">
              <h2 className="sectionTitle">
@@ -61,17 +38,15 @@ const Resume = () => {
               <p className ="textContents">Next.js、Reactを使用して問題のあるアプリケーションの改善をハッカソンを通じて行った。</p>
              </div>   
 
+             <div className="text">
+             <p>April 2023 - Now</p>
+              <p className ="textTitle">株式会社イング</p>
+              {/* 仕事内容の説明何をしていたか */}
+              <p className ="textContents"></p>
+             </div>  
+
             </div>
 
-            <div className="Certification">
-             <h2 className="sectionTitle">
-              Certification
-             </h2>
-             <p className="text">
-             Jul 2021 <br/>
-                TOEFL IBT 73点 取得  
-             </p>
-            </div>
    </section>
     )
   }

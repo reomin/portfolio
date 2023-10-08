@@ -28,13 +28,6 @@
     justify-content: center;
     align-items: center;
 }
-
-.icon{
-    margin: auto;
-    display: block;
-    max-width: 100%; /* 画像をコンテナの幅に合わせます */
-  max-height: 100%; /* 画像をコンテナの高さに合わせます */
-}
  
 
 .subName{
@@ -44,3 +37,37 @@
     border-bottom:2px solid black;
 }
 
+
+/* アイコンコンテナ */
+.icon-container {
+    overflow: hidden; /* コンテナ外の部分を非表示にする */
+    white-space: nowrap; /* アイコンを横に並べる */
+    animation: infinity-scroll-left 30s linear infinite; /* アニメーションを適用 */
+  }
+
+.icon-container:hover{
+    animation-play-state: paused;
+}
+  
+  /* アイコン */
+  .icon {
+    display: inline-block;
+    margin-right: 70px; /* アイコン間の間隔（任意） */
+    transition: margin 0.5s; /* アイコンがスライドする際のトランジション */
+  }
+  
+  /* アイコンホバー時のスタイル（任意） */
+  .icon:hover {
+    margin-right: 100px; /* ホバー時にアイコンを少し移動させる */
+  }
+  
+  /* @keyframes アニメーション */
+  @keyframes infinity-scroll-left {
+    from {
+      transform: translateX(50%); /* 開始位置を右端に設定 */
+    }
+    to {
+      transform: translateX(-70%); /* 終了位置を左端に設定 */
+    }
+  }
+  
